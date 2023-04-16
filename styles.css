@@ -17,11 +17,18 @@ html {
 body {
   font-family: system-ui;
   color: #555;
-  background-color: #f7f7f7;
+  /* background-color: #6c81dd; */
   min-height: 100vh;
   display: flex;
   justify-content: center;
   margin-top: 5rem;
+  background-image: url("background.jpg");
+  opacity: 1;
+  height: 100%; 
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .title {
@@ -61,7 +68,7 @@ input[type="text"] {
 }
 
 input[type="text"]::placeholder {
-  color: #bbb;
+  color: #7b7b7b;
 }
 
 button[type="submit"] {
@@ -105,8 +112,8 @@ input[type="text"]:focus {
   height: 20rem;
   object-fit: cover;
   background-color: #eee;
-  border-top-left-radius: 0.7rem;
-  border-top-right-radius: 0.7rem;
+  /* border-top-left-radius: 0.7rem;
+  border-top-right-radius: 0.7rem; */
 }
 
 .country__data {

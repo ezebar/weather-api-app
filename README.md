@@ -1,5 +1,3 @@
-# weather-api-app
-weather-api-app to search cities around the world
+weather app proyect
 
-See the site at:
-https://ezebar.github.io/weather-api-app/
+Search cities around the world and see their current weather. 
